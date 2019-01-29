@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    margin:0;
+    padding:0;
+    background-color: #efefef;
+}
+
+.nav{
+    background-color:red;
+    margin: 0;
+    padding:0;
+}
+
+.nav .title{
+    width:90%;
+    margin: 0 auto;
+    padding: 10px 0;
+    color:white;
+    font-size:32px;
+    font-family: 'Major Mono Display';
+}
+
+.page-footer{
+    width: 100%;
+    height: 10vh;
+    background-color: blueviolet;
+    position: fixed;
+    bottom:0;
+}
+
+.page-footer p{
+    text-align: center;
+    width:90%;
+    margin: 2px auto;
+    color:white;
+    font-family: Poppins;
+}
+
+a{
+    color:yellow;
+    text-decoration: none;
+}
+
+.design{
+    width:90%;
+    margin: 10px auto;
+}
+
+.design .nav-bar{
+    width: 100%;
+    height: 30px;
+    background-color:greenyellow;
+}
+
+.design .section{
+    width: 70%;
+    height: 200px;
+    background-color:palevioletred;
+    float:left;
+}
+
+.design .aside{
+    width: 30%;
+    height: 200px;
+    float:left;
+    background-color:burlywood;
+}
+
+.design .footer{
+    width: 100%;
+    height: 20px;
+    background-color: gold;
+    clear:both;
+}
+
+.control-panel{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.control-panel button,select{
+    background: transparent;
+    padding: 5px 10px;
+    border-radius:5px;
+    font-size:16px;
+    font-family: Poppins;
+    margin: 2px;
+}
+
+select{
+    border: 2px solid black;
+}
+select:hover{
+    background-color: black;
+    color:white;
+}
+
+.control-panel #Red{
+    border:3px solid red;
+    color:red;
+}
+
+.control-panel #Red:hover{
+    background-color: red;
+    color:white;
+}
+
+.control-panel #Blue{
+    border:3px solid blue;
+    color:blue;
+}
+.control-panel #Blue:hover{
+    background-color: blue;
+    color:white;
+}
+
+.control-panel #Green{
+    border:3px solid green;
+    color:green;
+}
+.control-panel #Green:hover{
+    background-color: green;
+    color:white;
+}
+
+.control-panel #Gray{
+    border:3px solid gray;
+    color:gray;
+}
+.control-panel #Gray:hover{
+    background-color: gray;
+    color:white;
+}

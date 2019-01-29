@@ -1,0 +1,24 @@
+{
+  "name": "jquery-redux-project",
+  "version": "1.0.0",
+  "description": "simple design thinking project",
+  "main": "index.html",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redux",
+    "jquery",
+    "project"
+  ],
+  "engines": {
+    "node": "10.x"
+  },
+  "author": "min si thu",
+  "license": "MIT"
+}

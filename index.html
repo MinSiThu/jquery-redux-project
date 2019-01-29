@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Redux Project</title>
+    <link rel="stylesheet" href="/stylesheets/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <h1 class="title">Design Thinking</h1>
+    </nav>
+
+    <div class="app">
+        <div class="control-panel">
+            <button id="Red">Red</button>
+            <button id="Blue">Blue</button>
+            <button id="Green">Green</button>
+            <button id="Gray">Gray</button>
+            <select name="element" id="elementSelector">
+                <option value=".nav-bar" selected>Nav-Bar</option>
+                <option value=".section">Section</option>
+                <option value=".aside">Aside</option>
+                <option value=".footer">Footer</option>
+            </select>
+        </div>
+        
+        <div class="design">
+            <nav class="nav-bar"></nav>
+            <section class="section"></section>
+            <aside class="aside"></aside>
+            <footer class="footer"></footer>
+        </div>
+
+        <footer class="page-footer">
+            <p>Created by Min Si Thu</p>
+            <p>Source code can be seen at <a href="">Github</a></p>
+        </footer>
+    </div>
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/redux/dist/redux.min.js"></script>
+    <script src="/store/actionTypes.js"></script> 
+    <script src="/store/reducers.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
